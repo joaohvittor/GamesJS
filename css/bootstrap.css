@@ -25,7 +25,9 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #1E1E2C;
+  --darkSecond: #343646;
+  --darkThird: #242636; 
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -53,7 +55,14 @@ html {
 @-ms-viewport {
   width: device-width;
 }
-
+.darkSecond{
+  background-color: var(--darkSecond);
+  color: var(--light);
+}
+.darkThird{
+  background-color: var(--darkThird);
+  color: var(--light);
+}
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -4590,7 +4599,10 @@ input[type="button"].btn-block {
     border-radius: 0;
   }
 }
-
+.dark{
+  background-color: var(--dark);
+  color: var(--light);
+}
 .card-columns .card {
   margin-bottom: 0.75rem;
 }
