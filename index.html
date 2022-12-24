@@ -13,7 +13,7 @@
         <div class="col-3 fixed">
           <aside>
             <div
-              class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark"
+              class="d-flex flex-column flex-shrink-0 p-3 text-white darkSecond"
               style="width: 280px"
             >
               <a
@@ -30,23 +30,23 @@
                     Home
                   </a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-white"> Market </a>
+                <li class="px-2">
+                  <a href="#" class="nav-link text-muted"> Market </a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-white"> Orders </a>
+                <li class="px-2">
+                  <a href="#" class="nav-link text-muted"> Orders </a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-white"> Products </a>
+                <li class="px-2">
+                  <a href="#" class="nav-link text-muted"> Products </a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-white"> Wishlist </a>
+                <li class="px-2">
+                  <a href="#" class="nav-link text-muted"> Wishlist </a>
                 </li>
               </ul>
               <hr />
               <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                  <a href="#" class="nav-link" aria-current="page">
+                  <a href="index.html" class="nav-link" aria-current="page">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -62,8 +62,8 @@
                     Home
                   </a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-white">
+                <li class="px-2">
+                  <a href="market.html" class="nav-link text-muted">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -79,8 +79,8 @@
                     Market
                   </a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-white">
+                <li class="px-2">
+                  <a href="orders.html" class="nav-link text-muted">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -97,8 +97,8 @@
                     Orders
                   </a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-white">
+                <li class="px-2">
+                  <a href="products.html" class="nav-link text-muted">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -115,8 +115,8 @@
                     Products
                   </a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-white">
+                <li class="px-2">
+                  <a href="wishlist.html" class="nav-link text-muted">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -137,7 +137,7 @@
               <hr />
               <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
-                  <a href="#" class="nav-link" aria-current="page">
+                  <a href="settings.html" class="nav-link" aria-current="page">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -153,8 +153,8 @@
                     Settings
                   </a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-white">
+                <li class="px-2">
+                  <a href="#" class="nav-link text-muted">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -180,10 +180,10 @@
             </div>
           </aside>
         </div>
-        <div class="col-9">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-5 px-3">
+        <div class="col-9 dark">
+          <div class="container-fluid dark">
+            <div class="row dark">
+              <div class="col-5 dark px-3 mt-4">
                 <button type="button" class="btn btn-outline-light rounded">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -200,29 +200,29 @@
                 </button>
                 <input
                   type="search"
-                  class="dark border border-light rounded"
+                  class="dark border border-light rounded px-2 py-2"
                   placeholder="Digite aqui sua busca"
                   name=""
-                  id=""
+                  id="SearchField"
                 />
               </div>
-              <div class="col-3">
+              <div class="col-3 dark mt-4">
                 <button type="button" class="btn btn-outline-light rounded">
-                  4K
+                  Free
                 </button>
                 <button type="button" class="btn btn-outline-light rounded">
-                  2K
+                  $
                 </button>
               </div>
-              <div class="col-4">
-                <div class="card">
-                  <div class="col-3">
+              <div class="col-4 dark d-inline">
+                <div class="card dark px-3 py-3">
+                  <div class="col-3 dark">
                     <img src="" class="rounded-circle" id="imgProfile" alt="" />
                   </div>
-                  <div class="col-6">
-                    <h4 id="nameProfile">Name</h4>
+                  <div class="col-6 dark">
+                    <h6 id="nameProfile">Name</h6>
                   </div>
-                  <div class="col-3">
+                  <div class="col-3 dark">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -245,42 +245,142 @@
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-6">
+            <div class="row dark">
+              <div class="col-6 dark">
                 <h1>Good Morning</h1>
-                <img src="" alt="" id="imgProfile">
+                <img src="img/" alt="" id="imgProfile" />
                 <p>Finish your profile</p>
-                <a href="#">Edit now</a>
+                <a href="profile.html">Edit now</a>
               </div>
-              <div class="col-6">
-                <div class="card">
-
+              <div class="col-6 dark rounded">
+                <div class="card rounded px-3 py-3 mx-2 my-2 dark">
+                  <p>Your balance</p>
+                  <h2 id="Balance">R$</h2>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12">
-                <h2>
-                  Trending Games
-                </h2>
+            <div class="row dark">
+              <div class="col-12 dark">
+                <h2>Trending Games</h2>
+              </div>
+            </div>
+            <div class="row dark">
+              <div class="col-3 darkSecond rounded mx-4">
+                <div class="card darkSecond" style="width: 15rem">
+                  <img style="width: 15rem" src="img/" alt="Card image cap" />
+                  <span id="NotificationsBadge" class="badge badge-secondary">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-6">
+                          <p id="Plataforma">Plataforma</p>
+                        </div>
+                        <div class="col-6">
+                          <p>Current Price</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6">
+                          <img src="img/" id="avatarCreator" alt="" />
+                          <p id="nameCreator">Nome Criador</p>
+                        </div>
+                        <div class="col-6">
+                          <span
+                            id="NotificationsBadge"
+                            class="badge badge-secondary"
+                            >$</span
+                          >
+                          <p>PriceValue</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </span>
+                </div>
+              </div>
+              <div class="col-3 rounded darkSecond mx-4">
+                <div class="card darkSecond" style="width: 15rem">
+                  <img style="width: 15rem" src="img/" alt="Card image cap" />
+                  <span id="NotificationsBadge" class="badge badge-secondary">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-6">
+                          <p id="Plataforma">Plataforma</p>
+                        </div>
+                        <div class="col-6">
+                          <p>Current Price</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6">
+                          <img src="img/" id="avatarCreator" alt="" />
+                          <p id="nameCreator">Nome Criador</p>
+                        </div>
+                        <div class="col-6">
+                          <span
+                            id="NotificationsBadge"
+                            class="badge badge-secondary"
+                            >$</span
+                          >
+                          <p>PriceValue</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </span>
+                </div>
+              </div>
+              <div class="col-3 rounded darkSecond mx-4">
+                <div class="card darkSecond" style="width: 15rem">
+                  <img style="width: 15rem" src="img/" alt="Card image cap" />
+                  <span id="NotificationsBadge" class="badge badge-secondary">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-6">
+                          <p id="Plataforma">Plataforma</p>
+                        </div>
+                        <div class="col-6">
+                          <p>Current Price</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6">
+                          <img src="img/" id="avatarCreator" alt="" />
+                          <p id="nameCreator">Nome Criador</p>
+                        </div>
+                        <div class="col-6">
+                          <span
+                            id="NotificationsBadge"
+                            class="badge badge-secondary"
+                            >$</span
+                          >
+                          <p>PriceValue</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-6">
+                <div class="container-md">
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>Features Creators</h4>
+                    </div>
+                    <div class="col-6">
+                      <a href="creators.html">All creators</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card"></div>
               </div>
             </div>
             <div class="row">
-              <div class="col-3">
-                <div class="card">
-
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="card">
-
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card">
-
-          </div>
-        </div>
+              <div class="col-12"></div>
             </div>
           </div>
         </div>
